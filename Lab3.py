@@ -6,7 +6,7 @@
 
 import pandas
 import math
-uni = pandas.read_csv(r'C:\Users\svega866\Desktop\cwurData.csv')
+uni = pandas.read_csv(r'cwurData.csv')
 print(uni.columns.values)
 
 selected_university = uni[uni["institution"] == "New York University"].iloc[0]
